@@ -27,6 +27,9 @@
         <div class="box southeast">石碑</div>
       </div>
     </n-card>
+    <div class="copyright">
+      上星@唯我独尊
+    </div>
   </main>
 </template>
 <script setup>
@@ -268,5 +271,12 @@ setInterval(() => {
   right: 0;
   transform: translate(50%, 50%);
   background-color: #555; /* 为“石碑”添加不同的背景颜色 */
+}
+.copyright{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 12px;
+  color: #999;
 }
 </style>
