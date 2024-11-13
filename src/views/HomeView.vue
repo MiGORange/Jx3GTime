@@ -82,7 +82,7 @@ const getDirectionString = (currentTime) => {
   const hour = currentTime.split(":")[0];
   // 时间段数组
   const timeSegments = [
-    { hour: 1, value: "东-9,南-0,西-1," },
+    { hour: 0, value: "东-9,南-0,西-1," },
     { hour: 5, value: "南-0,西-1,北-4," },
     { hour: 11, value: "东-9,西-1,北-4," },
     { hour: 17, value: "东-9,南-0,北-4," },
